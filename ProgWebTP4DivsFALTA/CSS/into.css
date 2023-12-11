@@ -1,0 +1,77 @@
+.contenedor {
+    width: 800px;
+    border: 1px solid #000; /* Borde para visualización */
+    padding: 10px; /* Añadir un poco de espacio alrededor del contenedor */
+}
+
+.div-1 {
+    width: 30px;
+    height: 30px; /* Para fines de demostración */
+    background-color: rgb(8, 8, 189);
+    margin-bottom: 10px; /* Espacio entre los divs */
+}
+
+.div-2 {
+    width: 50px;
+    height: 50px; /* Para fines de demostración */
+    background-color:rgba(197, 192, 192, 0.986);
+    margin-bottom: 10px; /* Espacio entre los divs */
+}
+
+.div-3 {
+    width: 50px;
+    height: 50px; /* Para fines de demostración */
+    background-color: rgba(128, 128, 128, 0.699);
+    margin-bottom: 10px; /* Espacio entre los divs */
+}
+
+.div-4 {
+    width: 150px;
+    height: 150px; /* Para fines de demostración */
+    background-color: rgb(155, 151, 151);
+}
+/* Estilos generales */
+.contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilos para los divs */
+.deportes,
+.hogar,
+.electro,
+.fitness,
+.maquinas,
+.maderas,
+.juguetes,
+.tecno {
+    width: calc(25% - 10px); /* Para que haya espacio entre los divs */
+    margin-bottom: 20px;
+    border: 1px solid #000; /* Borde para visualización */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el texto dentro de los divs */
+.deportes p,
+.fitness p,
+.juguetes p {
+    font-style: italic;
+}
+/* Estilos para el contenedor principal */
+.tecnologia {
+    width: 300px; /* Ancho del contenedor */
+    border: 1px solid #000; /* Borde para visualización */
+    padding: 20px;
+}
+
+/* Estilos para los elementos de texto dentro del contenedor */
+.tecnologia h2 {
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio después del título */
+}
+
+.tecnologia p {
+    margin: 5px 0;
+}
